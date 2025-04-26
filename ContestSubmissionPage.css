@@ -1,0 +1,150 @@
+/* Header styling */
+.header {
+    background: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #27b067;
+    display: flex;
+  }
+  
+  .logo::before {
+    content: '⬤';
+    color: #27b067;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #444;
+  }
+  
+  /* Main body styling */
+  /* body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    background: #f9f9f9;
+    color: #333;
+    padding: 20px;
+  }
+   */
+  /* Main container */
+  .container {
+    display: flex;
+    width: 90%;
+    height: 90%;
+    margin: 30px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+  
+  .left, .right {
+    flex: 1;
+  }
+  
+  .left {
+    padding-right: 30px;
+    border-right: 1px solid #eee;
+  }
+  
+  /* Tabs styling */
+  .tabs {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .tabs div {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .tabs .active {
+    background: black;
+    color: white;
+    border-radius: 20px;
+  }
+  
+  /* Section title and content */
+  .section-title {
+    font-weight: bold;
+    font-size: 58px;
+    margin-bottom: 10px;
+  }
+  
+  .guidelines {
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 29px;
+  }
+  
+  /* Right side content */
+  .right {
+    padding-left: 30px;
+  }
+  
+  .info-item {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .info-item b {
+    font-weight: 600;
+  }
+  
+  /* Enter button styling */
+  .enter-btn {
+    display: inline-block;
+    background: #27b067;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  /* Email and file input styles */
+.email-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .file-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .enter-btn {
+    display: inline-block;
+    background: #27b067;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,82 @@
+.voting-page {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+.voting-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-left {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6A0DAD; /* Purple */
+}
+
+.nav-right button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #6A0DAD; /* Purple */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-right button:hover {
+  background-color: #8A2BE2; /* Lighter purple */
+}
+
+.contest-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contest-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contest-card h3 {
+  font-size: 22px;
+  color: #333;
+}
+
+.contest-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+.vote-now-btn {
+  background-color: #6A0DAD; /* Purple */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.vote-now-btn:hover {
+  background-color: #8A2BE2; /* Lighter purple */
+}
